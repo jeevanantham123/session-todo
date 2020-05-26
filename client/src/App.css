@@ -1,0 +1,114 @@
+.App {
+  text-align: left;
+}
+.Google {
+  text-align: center;
+}
+body{
+ 
+  background: rgb(134,52,177);
+  background: linear-gradient(90deg, rgba(134,52,177,1) 0%, rgba(134,28,245,1) 30%, rgba(98,58,244,1) 47%, rgba(44,150,235,1) 100%);
+}
+
+/*signup signin*/
+header h3{
+  background-color: dodgerblue;
+  text-align:center;
+  height: 50px;
+}
+
+.logout{
+  float:right;
+}
+a{
+  color:black;
+  text-decoration: underline;
+}
+/********/
+
+
+ul{
+  list-style: none;
+}
+li{
+  border:1px solid black;
+  border-radius:5px;
+  padding-left: 10px;
+  margin: 1em 0;
+}
+li .delete{
+  border-radius:10px;
+}
+.exit{
+  float:right;
+  margin-top:5px;
+  border-radius: 8px;
+}
+.btn-dark{
+  margin-bottom:8px;
+  border-radius: 8px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.Login Form {
+  font-weight: bold;
+  margin:0 auto;
+  max-width: 320px;
+}
+
+
+.signup Form {
+  font-weight: bold;
+  margin:0 auto;
+  max-width: 320px;
+}
+
+@media only screen and (max-width: 600px) {
+  .btn-dark{
+    margin-top:5px;
+  }
+  body{
+  background: rgb(61,50,255);
+  background: linear-gradient(90deg, rgba(61,50,255,1) 0%, rgba(37,197,230,1) 100%);  }
+  .Login Form {
+    margin:0 auto;
+    max-width: 320px;
+  }
+  
+
+  .signup Form {
+    margin:0 auto;
+    max-width: 320px;
+  }
+}
+  
+
+  
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
